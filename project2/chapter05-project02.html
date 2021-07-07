@@ -11,13 +11,100 @@
        <legend>Advanced Art Work Search</legend>
 
         <div id="searchBox">
+            <input type="text" name="search" id="search" placeholder="Search files">
+            Subject:
+
+            <input type="radio" name="subject" id="History">
+            <label for="subject">  History </label>
+            
+            <input type="radio" name="subject" id="Person">
+            <label for="subject">  Person </label>
+            
+            <input type="radio" name="subject" id="Landscape">
+            <label for="subject">  Landscape </label>
+            
+            <select name="type"  id="type">
+                <option value="select type" selected>Select Genre </option>   
+                <option value="canada"> canada </option>
+                <option value="India"> India</option>
+            </select>
+
+            <input type="submit" value="Filter">
 
         </div>   
         <div id="settingsBox">
+            <select name="type"  id="type">
+                <option value="select type" selected>Bulk Actions </option>   
+                <option value="canada"> canada </option>
+                <option value="India"> India</option>
+            </select>
+
+            <input type="submit" value="Apply To All">
 
         </div>
         <div id="paintingBox">
+            <h3>Paintings</h3>
+            <table>
+                <tr>
+                    <th> </th>
+                     <th>Title</th>
+                     <th>Artist</th>
+                     <th>Year</th>
+                     <th>Genre</th>
+                     <th>Actions</th>
+                </tr>
 
+                <tr>
+                    <td><input type="radio" id="" name="Paintings" value=""></td>
+                    <td><img src="images/05030.jpg" alt="Death of Marat"></td>
+                    <td>David,jacques-Louis</td>
+                    <td>1793</td>
+                    <td>Romanticism</td>
+                    <td><img src="images/archive.png"><img src="images/collection.png"><img src="images/delete.png"><img src="images/edit.png"></td>
+                </tr>
+            
+                <tr>
+                    <td><input type="radio" id="" name="Paintings" value=""></td>
+                    <td><img src="images/120010.jpg" alt="portrait of eleanir of Toledo"></td>
+                    <td> Bronzino,Agnolo</td>
+                    <td>1545</td>
+                    <td>Mannerism</td>
+                    <td><img src="images/archive.png"><img src="images/collection.png"><img src="images/delete.png"><img src="images/edit.png"></td>
+                </tr>
+
+
+                <tr>
+                    <td><input type="radio" id="" name="Paintings" value=""></td>
+                    <td><img src="images/07020.jpg" alt="Liberty leading the people"></td>
+                    <td>Delacroix,Eugene</td>
+                    <td>1830</td>
+                    <td>Romanticism</td>
+                    <td><img src="images/archive.png"><img src="images/collection.png"><img src="images/delete.png"><img src="images/edit.png"></td>
+                </tr>
+
+
+                <tr>
+                    <td> <input type="radio" id="" name="Paintings" value=""></td>
+                    <td><img src="images/13030.jpg" alt="Arranement in Grey and Black"></td>
+                    <td>David,jacques-Louis</td>
+                    <td>1793</td>
+                    <td>Romanticism</td>
+                    <td><img src="images/archive.png"><img src="images/collection.png"><img src="images/delete.png"><img src="images/edit.png"></td>
+                </tr>
+
+
+                <tr>
+                    <td><input type="radio" id="" name="Paintings" value=""></td>
+                    <td><img src="images/06010.jpg" alt="Madernoiseelle Caroline Riviere"></td>
+                    <td>Inres,Jean-Auguste</td>
+                    <td>1806</td>
+                    <td>Neo-Classicism</td>
+                    <td><img src="images/archive.png"><img src="images/collection.png"><img src="images/delete.png"><img src="images/edit.png"></td>
+                </tr>
+                
+                <hr>
+                
+           </table>
         </div> 
     </fieldset>  
 </form>
