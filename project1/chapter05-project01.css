@@ -82,7 +82,7 @@ progress::-webkit-progress-bar {
 legend {
 	background-color: #607D8B; 
 	color: white;
-    width: 90%;
+    width: 98%;
     text-align: center;
     padding: 10px;
 
@@ -105,6 +105,8 @@ input[type=submit] {
    background-color: #673AB7;
     color: white;
     border-style: none;
+    width: 7em;
+    padding: 1em 0.5em 1em 0.5em;
     
 }
 input[type=submit]:hover {
