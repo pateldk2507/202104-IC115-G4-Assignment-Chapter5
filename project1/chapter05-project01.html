@@ -17,9 +17,31 @@
          
     </section>
     
-    <section>
+    <section >
          <h3>Revise</h3>
-                
+         <fieldset id= "Revise">
+
+        <legend>Filter Orders</legend>
+        <label for="Customer"><strong>Customer</strong></label><br>
+        <input type="text" id="name" placeholder ="Enter name" name="name"><br><br>
+        <label for="Country"><strong>country</strong></label><br>
+        <select name="country" placeholder= "Choose a country" id="country">
+             <option value="canada"> canada </option>
+             <option value="India"> India</option>
+          </select><br>
+          
+          <label for="Status">Status</label><br>
+          <input type="radio" id="pending" name= "Status" value="pending">
+          <label for="html">pending</label>
+          <input type="radio" id="processing" name= "Status" value="processing">
+          <label for="html">processing</label>
+          <input type="radio" id="shipped" name= "Status" value="shipped">
+          <label for="html">shipped</label><br>
+          <label for="Order Date"><strong>Order Date</strong></label><br>
+          <input type="date" id="date" name="order date"><br>
+
+          <input type="submit">
+          </fieldset>
     </section>    
 
 
