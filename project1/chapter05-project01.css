@@ -43,10 +43,37 @@ section h3 {
 table caption {
 	background-color: #607D8B; 
 	color: white;
+    padding: 10px;
 
 }
 
+table{
+    width: 80%;
+    margin: auto;
+}
 
+table tr{
+    text-align: justify;
+    margin-top: 30px;
+}
+
+td,th{
+    padding: 10px;
+}
+
+progress{
+    border-radius: 0px; 
+    border: 1px solid;
+}
+
+progress::-webkit-progress-bar {
+    background-color: white;
+    
+  }
+  progress::-webkit-progress-value {
+    background-color: rgb(47, 154, 196);
+    
+  }
 
 /* form formatting */
 
@@ -56,7 +83,6 @@ legend {
 	color: white;
 
 }
-
 
 
 input[type=submit] {
