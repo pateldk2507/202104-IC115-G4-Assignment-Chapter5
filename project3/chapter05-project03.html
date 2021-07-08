@@ -14,69 +14,110 @@
 <main>
    <section>
       <fieldset>
-         <form action="process.php" method="post">
+         <form action="http://www.randyconnolly.com/tests/process.php" method="POST">
       <p>Photo Details</p>
       <br>
+      
+      <div class="form-data">
+      
+               <label for="Title"> <strong> Title</strong></label><br>
+               <input type="text" class="input-width" id="" placeholder ="Give your photo and descriptive name" name="title"><br>
+               <br>
 
-      <label for="Title"> <strong> Title</strong></label><br>
-      <input type="text" id="" placeholder ="Give your photo and descriptive name" name="name"><br>
-      <br>
+               <label for="Description"> <strong>Description</strong></label><br>
+               <textarea name="description" class="input-width" rows="4" cols="150" placeholder="Adding a rich description will help with search result"></textarea><br> <br>
 
-      <label for="Description"> <strong>Description</strong></label><br>
-       <textarea name="" rows="4" cols="150">It was such a surprise to see you</textarea><br>
+      <div class="row">
 
+          <div class="left">
+               <label for="Continent"><strong>Continent</strong></label><br>
+                  <select name="Continent" placeholder= "Choose continent" selected id="Continent">
+                        <option value="Continent" selected>Choose continent </option>   
+                        <option value="Asia"> Asia </option>
+                        <option value="Europe"> Europe</option>
+                  </select>
+                  <br> 
+
+               <label for="Country"><strong>Country</strong></label><br>
+                  <select name="country" placeholder= "Choose a country" id="country">
+                        <option value="country" selected>Choose  country </option>   
+                        <option value="canada"> canada </option>
+                        <option value="India"> India</option>
+                  </select>
+                  <br> 
+
+
+               <label for="City"><strong>City</strong></label><br>
+               <input type="text"  style="width: 240px; padding: 5px;"  id="City" name="City"><br>
+
+          </div>  
+
+
+         <div class="left">
+
+            <div class="copyright">
+                  <label for="Copyright?"> <strong> Copyright? </strong></label><br>
+                  
+                  <input type="radio" id="" name= "Copyright" value="1">
+                  <label for="html">All rights reserved</label><br>
+
+                  <input type="radio" id="" name="Copyright" value="2">
+                  <label for="html">Creative Commons</label><br>
+            </div>
+
+            <div class="creative-types">
+                  
+                  
+                  <label for="creative commons types"> <strong> Creative commons types </strong></label><br>
+
+                  <input type="Checkbox"  name= "cc[]" value="1"/>
+                  <label for="html">Attribution</label><br>
+
+                  <input type="Checkbox"  name="cc[]" value="2"/>
+                  <label for="html">Noncommercial</label><br>
+
+                  <input type="Checkbox"  name="cc[]" value="3"/>
+                  <label for="html">No Derivative Works</label>
+            </div>
+         </div>   
+      </div>      
+      
+   <br>
 
       
-      <label for="Continent"><strong>Continent</strong></label><br>
-      <select name="Continent" placeholder= "Choose continent" selected id="Continent">
-         <option value="Continent" selected>Choose continent </option>   
-         <option value="Asia"> Asia </option>
-         <option value="Europe"> Europe</option>
-      </select><br>
-
-      <label for="Country"><strong>Country</strong></label><br>
-      <select name="country" placeholder= "Choose a country" id="country">
-           <option value="country" selected>Choose  country </option>   
-           <option value="canada"> canada </option>
-           <option value="India"> India</option>
-      </select><br>
-      <label for="City"><strong>City</strong></label><br>
-      <input type="text" id="City" name="City"><br>
-
-      <label for="Copyright?"> <strong> Copyright? </strong></label><br>
-          <input type="radio" id="" name= "All rights rerserved" value="All rights rerserved">
-      <label for="html">All rights reserved</label><br>
-           <input type="radio" id="" name="Creative Commons" value="Creative Commons">
-      <label for="html">Creative Commons</label><br>
-
-      <label for="creative commons types"> <strong> Creative commons types </strong></label><br>
-          <input type="Checkbox" id="" name= "Attribution" value="Attribution">
-      <label for="html">Attribution</label><br>
-          <input type="Checkbox" id="" name="No Derivative Works" value="No Derivative Works">
-      <label for="html">No Derivative Works</label><br>
+      <div class="licence-agreement">
+         <label for="html"><strong>I accept the software license</strong></label>
+         <input type="checkbox" id="" name="accept" value="on"><br>
+      </div>
       <br>
 
-      <label for="html"><strong>I accept the software license</strong></label>
-      <input type="checkbox" id="" name="I accept the software license" value="I accept the software license"><br>
-      <br>
-
+      <div class="row-2">
+      <div class="left">
       <label for="Rate this photo"><strong>Rate this photo:</strong></label><br>
-      <input type="text" id="" name="Rate this photo" ><br>
+      <input type="text" id="" name="rate" ><br><br>
 
       <label for="color collection"><strong>Color Collection:</strong></label><br>
-      <input type="color" id="color collection" name="color collection" value=""><br>
+      <input type="color" id="color collection" name="color" value=""><br>
+      </div>
 
+      <div class="left">
+         <div class="copyright">
       <label for="date taken"><strong>Date taken:</strong></label><br>
-      <input type="date" id="date" name="Date Taken"><br> 
+      <input type="date" id="date" name="date"><br> <br>
 
       <label for="time taken"><strong>Time Taken:</strong></label><br>
-      <input type="time" id="time taken" name="Time Taken"><br>
+      <input type="time" id="time taken" name="time">
       <br>
+         </div>
+      </div>
+   </div>
 
-      <input type="submit"name="submit" value="Submit">
-      <input type="button" name="Clear Form" value="Clear Form">
-
-
+      <div class="form-submit">
+            <input type="submit" value="Submit">
+            <input type="reset"  value="Clear Form">
+      </div>
+   
+   </div>
       </form>
 
       </fieldset>
