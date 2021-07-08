@@ -15,6 +15,10 @@ body {
 legend {
    background-color: #616161 ;
    color: white;
+   padding: 10px;
+   margin: auto;
+   width: 95%;
+   text-align: center;
 
 }
 fieldset {
@@ -27,8 +31,39 @@ div#searchBox, div#settingsBox, div#paintingBox {
    margin: 0.25em auto;
    background-color: #E0E0E0;
    border: 1pt solid #616161;
+   width: 95%;
+   padding: 10px;
 
 }
+
+td{
+   padding: 7px;
+}
+th{
+   text-align: justify;
+}
+
+td > img{
+   background-color: #F5F5F5;
+   padding: 10px;
+}
+
+table{
+   width: 95%;
+}
+
+#paintingBox > h3{
+   background-color: #BDBDBD;
+   padding: 10px;
+   text-align: center;
+}
+
+#head-row{
+   background-color: #BDBDBD;
+   padding: 10px;
+   text-align: center;
+}
+
 div#searchBox { margin-top: 1em; }
 div#artistBox { 
    background-color: #EEEEEE;
