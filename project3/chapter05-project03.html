@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+   <meta charset="utf-8">
+   <title>Chapter 5</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="chapter05-project03.css" />
+</head>
+<body>
+<header>
+     <h1>Share Your Travels</h1>
+     <p>let us know where you've been</p>
+</header>
+<main>
+   <section>
+      <fieldset>
+         <form action="process.php" method="post">
+      <p>Photo Details</p>
+      <br>
+
+      <label for="Title"> <strong> Title</strong></label><br>
+      <input type="text" id="" placeholder ="Give your photo and descriptive name" name="name"><br>
+      <br>
+
+      <label for="Description"> <strong>Description</strong></label><br>
+       <textarea name="" rows="4" cols="150">It was such a surprise to see you</textarea><br>
+
+
+      
+      <label for="Continent"><strong>Continent</strong></label><br>
+      <select name="Continent" placeholder= "Choose continent" selected id="Continent">
+         <option value="Continent" selected>Choose continent </option>   
+         <option value="Asia"> Asia </option>
+         <option value="Europe"> Europe</option>
+      </select><br>
+
+      <label for="Country"><strong>Country</strong></label><br>
+      <select name="country" placeholder= "Choose a country" id="country">
+           <option value="country" selected>Choose  country </option>   
+           <option value="canada"> canada </option>
+           <option value="India"> India</option>
+      </select><br>
+      <label for="City"><strong>City</strong></label><br>
+      <input type="text" id="City" name="City"><br>
+
+      <label for="Copyright?"> <strong> Copyright? </strong></label><br>
+          <input type="radio" id="" name= "All rights rerserved" value="All rights rerserved">
+      <label for="html">All rights reserved</label><br>
+           <input type="radio" id="" name="Creative Commons" value="Creative Commons">
+      <label for="html">Creative Commons</label><br>
+
+      <label for="creative commons types"> <strong> Creative commons types </strong></label><br>
+          <input type="Checkbox" id="" name= "Attribution" value="Attribution">
+      <label for="html">Attribution</label><br>
+          <input type="Checkbox" id="" name="No Derivative Works" value="No Derivative Works">
+      <label for="html">No Derivative Works</label><br>
+      <br>
+
+      <label for="html"><strong>I accept the software license</strong></label>
+      <input type="checkbox" id="" name="I accept the software license" value="I accept the software license"><br>
+      <br>
+
+      <label for="Rate this photo"><strong>Rate this photo:</strong></label><br>
+      <input type="text" id="" name="Rate this photo" ><br>
+
+      <label for="color collection"><strong>Color Collection:</strong></label><br>
+      <input type="color" id="color collection" name="color collection" value=""><br>
+
+      <label for="date taken"><strong>Date taken:</strong></label><br>
+      <input type="date" id="date" name="Date Taken"><br> 
+
+      <label for="time taken"><strong>Time Taken:</strong></label><br>
+      <input type="time" id="time taken" name="Time Taken"><br>
+      <br>
+
+      <input type="submit"name="submit" value="Submit">
+      <input type="button" name="Clear Form" value="Clear Form">
+
+
+      </form>
+
+      </fieldset>
+
+   
+   </section>
+</main>  
+
+
+</body>
+</html>
