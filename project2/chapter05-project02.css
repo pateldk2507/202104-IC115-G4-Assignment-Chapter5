@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: 'Merriweather', serif; 
+}
+body {
+   font-family: 'Open Sans', Arial, sans-serif;
+   font-size: 16px;
+}
+
+
+legend {
+   background-color: #616161 ;
+   color: white;
+   padding: 10px;
+   margin: auto;
+   width: 95%;
+   text-align: center;
+
+}
+fieldset {
+   margin: 1em auto;
+   background-color: #F5F5F5;
+
+}
+
+div#searchBox, div#settingsBox, div#paintingBox {
+   margin: 0.25em auto;
+   background-color: #E0E0E0;
+   border: 1pt solid #616161;
+   width: 95%;
+   padding: 10px;
+
+}
+
+td{
+   /* padding: 7px; */
+   text-align: justify;
+   padding: 7px;
+}
+th{
+   text-align: justify;
+   padding: 7px;
+   border-bottom: 1px solid black;
+   
+}
+
+.hr-line{
+   width: 100%;
+   border-bottom: 1px solid black;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.actions img{
+   background-color: #F5F5F5;
+   padding: 7px;
+   margin-left: 4px;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+td > img{
+   border: 1px solid black;
+   padding: 3px;
+}
+
+table{
+   width: 100%;
+   border-width: 0px;
+   border: none;
+}
+
+#paintingBox > h3{
+   background-color: #BDBDBD;
+   padding: 10px;
+   text-align: center;
+   margin: auto;
+}
+
+#head-row{
+   background-color: #d6d2d2;
+   text-align: center;
+   
+}
+
+div#searchBox { margin-top: 1em; }
+div#artistBox { 
+   background-color: #EEEEEE;
+    
+}
+
+
+table thead {
+   background-color: #E0E0E0 ;
+    
+}
+
+caption {
+   background-color: #BDBDBD;
+
+}
+
