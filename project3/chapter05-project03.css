@@ -105,13 +105,15 @@ form p {
 }
 
 .copyright{
-   border: 1px solid black;
+   border: 1.5px solid #9FA8DA;
    padding: 7px;
+   border-radius: 6px;
 }
 
 .creative-types{
    margin-top: 10px;
-   border: 1px solid black;
+   border: 1.5px solid #9FA8DA;
+   border-radius: 6px;
    padding: 7px;
 }
 
