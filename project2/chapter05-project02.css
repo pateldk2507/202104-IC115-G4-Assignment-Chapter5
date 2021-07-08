@@ -19,6 +19,7 @@ legend {
    margin: auto;
    width: 95%;
    text-align: center;
+   font-size: 22px;
 
 }
 fieldset {
@@ -75,7 +76,7 @@ table{
 }
 
 #paintingBox > h3{
-   background-color: #BDBDBD;
+   background-color: #b3b0b0;
    padding: 10px;
    text-align: center;
    margin: auto;
