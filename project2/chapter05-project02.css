@@ -17,7 +17,7 @@ legend {
    color: white;
    padding: 10px;
    margin: auto;
-   width: 95%;
+   width: 90%;
    text-align: center;
    font-size: 22px;
 
@@ -32,7 +32,7 @@ div#searchBox, div#settingsBox, div#paintingBox {
    margin: 0.25em auto;
    background-color: #E0E0E0;
    border: 1pt solid #616161;
-   width: 95%;
+   width: 93%;
    padding: 10px;
 
 }
@@ -105,3 +105,7 @@ caption {
 
 }
 
+form{
+   width: 80%;
+   margin: auto;
+}
